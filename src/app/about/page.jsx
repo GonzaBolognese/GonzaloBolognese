@@ -24,18 +24,18 @@ const About = () => {
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 '>
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                         <p className='font-medium'>
-                            Hi, My name is Gonzalo Bolognese and I'm a Full Stack Web Developer based in Buenos Aires, Argentina.
+                            Hi, My name is Gonzalo Bolognese and I&apos;m a Full Stack Web Developer based in Buenos Aires, Argentina.
                         </p>
                         <p className='my-4 font-medium'>
-                            I'm Graduate as a Full Stack Web Developer from &nbsp; 
+                            I&apos;m Graduate as a Full Stack Web Developer from &nbsp; 
                             <a href='https://www.soyhenry.com/' target='_blank'>
-                                <img src="https://www.soyhenry.com/_next/image?url=https%3A%2F%2Fassets.soyhenry.com%2Fhenry-landing%2Fassets%2FHenry%2Flogo-white.png&w=256&q=75" className="bg-dark inline w-20 p-1.5" />
+                                <Image alt='Henry logo' src="https://www.soyhenry.com/_next/image?url=https%3A%2F%2Fassets.soyhenry.com%2Fhenry-landing%2Fassets%2FHenry%2Flogo-white.png&w=256&q=75" className="bg-dark inline w-20 p-1.5" />
                             </a>
                         </p>
                         <p className='font-medium'>
                             and graduate as a Front-End Web Developer from &nbsp; 
                             <a href="https://www.educacionit.com/" target='_blank'>
-                                <img src="https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg" className='inline w-28 mb-2 ' />
+                                <Image alt='educacion IT logo' src="https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg" className='inline w-28 mb-2 ' />
                             </a>
                         </p>
                         <p className='mb-3 font-medium'>
