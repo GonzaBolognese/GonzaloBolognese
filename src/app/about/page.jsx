@@ -45,7 +45,7 @@ const About = () => {
                         With experience working on individual and team projects, I understand the value of effective communication and collaboration. I bring a strong commitment to delivering high-quality results and constantly seek innovative ways to bring ideas to life.
                         </p>
                         <p className='font-medium'>
-                        I am excited to apply my skills and knowledge in a professional setting, eager to contribute to a company's success while continuously learning from experienced professionals. Let's work together to create exceptional digital experiences!
+                        I am excited to apply my skills and knowledge in a professional setting, eager to contribute to a company&apos;s success while continuously learning from experienced professionals. Let&apos;s work together to create exceptional digital experiences!
                         </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 
