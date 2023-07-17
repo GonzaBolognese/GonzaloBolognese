@@ -8,6 +8,8 @@ import Imgcom from '../../../public/images/Imgcom.png'
 import Skills from '@/components/Skills'
 import Education from '@/components/Education'
 import Transition from '@/components/Transition'
+import HenryLogo from '../../../public/images/Henry.png'
+import EducationITLogo from '../../../public/images/EducacionIT.png'
 
 
 const About = () => {
@@ -29,13 +31,13 @@ const About = () => {
                         <p className='my-4 font-medium'>
                             I&apos;m Graduate as a Full Stack Web Developer from &nbsp; 
                             <a href='https://www.soyhenry.com/' target='_blank'>
-                                <Image alt='Henry logo' src="https://www.soyhenry.com/_next/image?url=https%3A%2F%2Fassets.soyhenry.com%2Fhenry-landing%2Fassets%2FHenry%2Flogo-white.png&w=256&q=75" className="bg-dark inline w-20 p-1.5" />
+                                <Image alt='Henry logo' src={HenryLogo} className="bg-light inline w-20 p-1.5 rounded-xl" />
                             </a>
                         </p>
                         <p className='font-medium'>
                             and graduate as a Front-End Web Developer from &nbsp; 
                             <a href="https://www.educacionit.com/" target='_blank'>
-                                <Image alt='educacion IT logo' src="https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg" className='inline w-28 mb-2 ' />
+                                <Image alt='educacion IT logo' src={EducationITLogo} className='bg-light inline w-28 mb-2 rounded-xl' />
                             </a>
                         </p>
                         <p className='mb-3 font-medium'>
