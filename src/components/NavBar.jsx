@@ -81,7 +81,6 @@ const NavBar = () => {
           <Custom href="/" title="Home" className="mr-4" />
           <Custom href="/about" title="About" className="mx-4" />
           <Custom href="/projects" title="Projects" className="mx-4" />
-          <Custom href="/articles" title="Articles" className="ml-4" />
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
@@ -126,7 +125,6 @@ const NavBar = () => {
            <CustomMobile href="/" title="Home" className="" toggle={handleClick}/>
            <CustomMobile href="/about" title="About" className="" toggle={handleClick}/>
            <CustomMobile href="/projects" title="Projects" className="" toggle={handleClick}/>
-           <CustomMobile href="/articles" title="Articles" className="" toggle={handleClick}/>
          </nav>
  
          <nav className="flex items-center justify-center flex-wrap mt-2">
