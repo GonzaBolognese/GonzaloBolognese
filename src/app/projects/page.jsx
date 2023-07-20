@@ -5,15 +5,17 @@ import React from 'react'
 import AnimetedText from '@/components/AnimetedText'
 import { GithubIcon } from '@/components/Icons'
 import MangiareImg from '../../../public/images/Mangiare.jpg'
+import PaseoPetImg from '../../../public/images/PaseoPet.jpg'
+import HenryGamesImg from '../../../public/images/HenryGames.png'
 import Link from 'next/link'
 import Image from 'next/image'
 import Transition from '@/components/Transition'
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
   return(
-    <article className='w-full flex items-center justify-between relative rounded-br-2xl rounded-3xl 
+    <article className='w-[95%] flex items-center justify-between ml-8 relative rounded-br-2xl rounded-3xl 
     border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light
-    lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
+    lg:flex-col lg:p-8 xl:ml-0 xs:rounded-2xl xs:rounded-br-3xl xs:p-4 '>
       <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl
       dark:bg-light xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
       <Link href={link} target="_blank"
@@ -41,8 +43,8 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
 
 const Project = ({title, type, img, link, github}) => {
   return (
-    <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark
-    bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4'>
+    <article className='w-[95%] flex flex-col items-center justify-center rounded-2xl ml-8 border border-solid border-dark
+    bg-light p-6 relative dark:bg-dark dark:border-light xl:ml-0 xs:p-4'>
        <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark 
        rounded-br-3xl dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]'/>
       <Link href={link} target="_blank"
@@ -88,53 +90,22 @@ const proyects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project 
-                type="E-commerce"
-                title="Mangiar-e"
-                summary="With 7 colleagues, we developed an application called Mangiar-e that offers an easy recipe search based on the user's ingredients. It includes a landing page, authentication through Auth0, an admin panel, and a regular user panel. It allows ingredient creation and modification from the admin side, as well as recipe creation from the user side. It also provides the option for users to purchase any missing ingredients through the application using a shopping cart linked to Mercado Pago. Implementation of cloudinary and localStorage within the app."
-                img={MangiareImg}
-                github="https://github.com/Matu36/MANGIARE"
-                link="https://mangiare.vercel.app/"
+                type="App"
+                title="Paseo Pet"
+                summary="Paseo Pet is a dog-walking app developed as part of a university project for educational purposes. The main idea of the app is to connect dog walkers from a specific area with dogs in need of a walk. The application is developed in PHP and uses PHPMyAdmin as the database."
+                img={PaseoPetImg}
+                github="https://github.com/GonzaBolognese/Paseopet"
+                link="https://paseopet.000webhostapp.com/"
                 />
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project 
-                type="E-commerce"
-                title="Mangiar-e"
-                summary="With 7 colleagues, we developed an application called Mangiar-e that offers an easy recipe search based on the user's ingredients. It includes a landing page, authentication through Auth0, an admin panel, and a regular user panel. It allows ingredient creation and modification from the admin side, as well as recipe creation from the user side. It also provides the option for users to purchase any missing ingredients through the application using a shopping cart linked to Mercado Pago. Implementation of cloudinary and localStorage within the app."
-                img={MangiareImg}
-                github="https://github.com/Matu36/MANGIARE"
-                link="https://mangiare.vercel.app/"
-                />
-            </div>
-
-            <div className='col-span-12'>
-              <FeaturedProject 
-                type="E-commerce"
-                title="Mangiar-e"
-                summary="With 7 colleagues, we developed an application called Mangiar-e that offers an easy recipe search based on the user's ingredients. It includes a landing page, authentication through Auth0, an admin panel, and a regular user panel. It allows ingredient creation and modification from the admin side, as well as recipe creation from the user side. It also provides the option for users to purchase any missing ingredients through the application using a shopping cart linked to Mercado Pago. Implementation of cloudinary and localStorage within the app."
-                img={MangiareImg}
-                github="https://github.com/Matu36/MANGIARE"
-                link="https://mangiare.vercel.app/"
-                />
-            </div>
-            <div className='col-span-6 sm:col-span-12'>
-              <Project 
-                type="E-commerce"
-                title="Mangiar-e"
-                summary="With 7 colleagues, we developed an application called Mangiar-e that offers an easy recipe search based on the user's ingredients. It includes a landing page, authentication through Auth0, an admin panel, and a regular user panel. It allows ingredient creation and modification from the admin side, as well as recipe creation from the user side. It also provides the option for users to purchase any missing ingredients through the application using a shopping cart linked to Mercado Pago. Implementation of cloudinary and localStorage within the app."
-                img={MangiareImg}
-                github="https://github.com/Matu36/MANGIARE"
-                link="https://mangiare.vercel.app/"
-                />
-            </div>
-            <div className='col-span-6 sm:col-span-12'>
-              <Project 
-                type="E-commerce"
-                title="Mangiar-e"
-                summary="With 7 colleagues, we developed an application called Mangiar-e that offers an easy recipe search based on the user's ingredients. It includes a landing page, authentication through Auth0, an admin panel, and a regular user panel. It allows ingredient creation and modification from the admin side, as well as recipe creation from the user side. It also provides the option for users to purchase any missing ingredients through the application using a shopping cart linked to Mercado Pago. Implementation of cloudinary and localStorage within the app."
-                img={MangiareImg}
-                github="https://github.com/Matu36/MANGIARE"
-                link="https://mangiare.vercel.app/"
+                type="Api App"
+                title="Henry Games"
+                summary="The objective of the project was to build an App using React, Redux, Node, and Sequelize."
+                img={HenryGamesImg}
+                github="https://github.com/GonzaBolognese/PI-Videogames-PT-08/tree/main/PI-Videogames-PT-08"
+                link="https://github.com/GonzaBolognese/PI-Videogames-PT-08/tree/main/PI-Videogames-PT-08"
                 />
             </div>
           </div>

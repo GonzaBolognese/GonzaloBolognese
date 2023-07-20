@@ -4,7 +4,7 @@ import Head from 'next/head'
 import React from 'react'
 import AnimetedText from '@/components/AnimetedText'
 import Image from 'next/image'
-import Imgcom from '../../../public/images/Imgcom.png'
+import Imgcom from '../../../public/images/Img.jpg'
 import Skills from '@/components/Skills'
 import Education from '@/components/Education'
 import Transition from '@/components/Transition'
@@ -65,13 +65,13 @@ const About = () => {
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                 2+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Satisfied Clients</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Years of experience</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                2+
+                                3+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Years of experience</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Featured projects</h2>
                         </div>
                         
                     </div>
