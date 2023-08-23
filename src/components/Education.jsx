@@ -78,7 +78,7 @@ const Education = () => {
                     place='Universidad de Buenos Aires (UBA)'
                     link="https://www.uba.ar/#/"
                     info='
-                    Completed up to the third year. I decided to pause my degree to explore other academic and professional options. Relevant subjects passed: Algebra, Mathematical Analysis I and II, Statistics.
+                    Completed up to the third year. I decided to pause my degree to explore other academic and professional options. Relevant subjects passed: Algebra, Mathematical Analysis I and II, Statistics.'
                     />
                    
             </ul>
