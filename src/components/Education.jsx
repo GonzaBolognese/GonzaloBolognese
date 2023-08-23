@@ -60,12 +60,7 @@ const Education = () => {
                     time='2022 - 2023'
                     place='Henry'
                     link='https://www.soyhenry.com/'
-                    info='Proyecto individual de una aplicación web utilizando React, 
-                    Redux, Node y Sequelize.
-                    Proyecto grupal de un Ecommerce gastronómico. Donde 
-                    aprendí a trabajar en equipo, leer y comprender 
-                    documentaciones de código y coordinar con otros 
-                    desarroladores utilizando Git.
+                    info='Bootcamp in which I was able to acquire skills to develop a complete website, including design, functionality, relational database, and API manipulation. I highly value the learning of programming and mathematical concepts such as algorithms, recursion, and data structures.
                     '
                     />
                     <Details 
@@ -73,11 +68,8 @@ const Education = () => {
                     time='2021 - 2022'
                     place='Educación IT'
                     link='https://www.educacionit.com/'
-                    info='Curso acelerado con módulos de desarrollo web con HTML, 
-                    CSS y JavaScript para realizar Responsive Webs y también 
-                    desarrollo con React. 
-                    Módulos de diseño UX, UI e Introducción al Paradigma de 
-                    Objetos.
+                    info='
+                    Accelerated course with web development modules covering HTML, CSS, and JavaScript for creating responsive websites, as well as development with React. Modules include UX/UI design and an introduction to the Object Paradigm.
                     '
                     />
                     <Details 
@@ -85,9 +77,8 @@ const Education = () => {
                     time='2022 - 2023'
                     place='Universidad de Buenos Aires (UBA)'
                     link="https://www.uba.ar/#/"
-                    info='Realizado hasta tercer año. Incorpore conocimientos de 
-                    Algebra, Estadística y Análisis matemático (Integrales 
-                    múltiples, ecuaciones diferenciales ordinarias de 2do orden).'
+                    info='
+                    Completed up to the third year. I decided to pause my degree to explore other academic and professional options. Relevant subjects passed: Algebra, Mathematical Analysis I and II, Statistics.
                     />
                    
             </ul>
