@@ -11,12 +11,9 @@
 - **Experiencia y Educación**: En este portfolio, detallo mi formación académica y mis experiencias profesionales relevantes.
 - **Proyectos Destacados**: Destaco algunos proyectos en los que he trabajado, ofreciendo una visión detallada de mis habilidades y logros en el desarrollo.
 
-## Explora Mi Portfolio
-Te invito a explorar mi portfolio y descubrir más sobre mí, mis habilidades y proyectos. ¡Únete a mí en este viaje hacia la creatividad, la innovación y la excelencia en el desarrollo web!
 
 ## Tecnologías Utilizadas
-Next.js | React | Tailwind CSS | Figma | Leonardo IA
+Next.js | React | Tailwind CSS | Framer Motion | Figma | Leonardo IA
 
 ---
 
-**Nota**: Siéntete libre de clonar o bifurcar este repositorio para crear tu propio portfolio. ¡Espero que encuentres inspiración y utilidad en mi proyecto!
