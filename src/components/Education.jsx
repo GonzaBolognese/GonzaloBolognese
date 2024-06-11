@@ -47,7 +47,7 @@ const Education = () => {
     <>
     <div className='my-64'>
         <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-            Education
+            Educación
         </h2>
         <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
             <motion.div
@@ -60,8 +60,9 @@ const Education = () => {
                     time='2022 - 2023'
                     place='Henry'
                     link='https://www.soyhenry.com/'
-                    info='Bootcamp in which I was able to acquire skills to develop a complete website, including design, functionality, relational database, and API manipulation. I highly value the learning of programming and mathematical concepts such as algorithms, recursion, and data structures.
-                    '
+                    info='
+                    Bootcamp en el cual pude adquirir habilidades para desarrollar un sitio web completo desde el diseño, funcionalidad, base de datos relacionales y manipulación de Apis. Valoro mucho el aprendizaje de conceptos en programación y matemáticas como algoritmos, recursión y estructuras de datos.
+                    ' 
                     />
                     <Details 
                     type='FRONT END WEB DEVELOPER'
@@ -69,16 +70,17 @@ const Education = () => {
                     place='Educación IT'
                     link='https://www.educacionit.com/'
                     info='
-                    Accelerated course with web development modules covering HTML, CSS, and JavaScript for creating responsive websites, as well as development with React. Modules include UX/UI design and an introduction to the Object Paradigm.
+                    Me forme con un curso acelerado que abarcó módulos desde Diseño UX y UI hasta Introducción al Paradigma de Objetos. Adquirí habilidades en Desarrollo Web utilizando HTML, CSS, Vanilla JavaScript y React. Durante este curso, adquirí habilidades para desarrollar diseños responsivos y para implementar Aplicaciones Web Progresivas (AWP)
                     '
                     />
                     <Details 
-                    type='ACTUARIO EN ADMINISTRACIÓN'
-                    time='2022 - 2023'
-                    place='Universidad de Buenos Aires (UBA)'
-                    link="https://www.uba.ar/#/"
+                    type='LICENCIATURA EN CIENCIA DE DATOS'
+                    time='2024 - 2028'
+                    place='Universidad Nacional de San Martin (UNSAM)'
+                    link="https://www.unsam.edu.ar/"
                     info='
-                    Completed up to the third year. I decided to pause my degree to explore other academic and professional options. Relevant subjects passed: Algebra, Mathematical Analysis I and II, Statistics.'
+                    Iniciando mi formación en la Licenciatura en Ciencia de Datos en la Universidad Nacional de Buenos Aires, Mi interés se centra en fusionar mi pasión por la programación y la estadística.
+                    '
                     />
                    
             </ul>

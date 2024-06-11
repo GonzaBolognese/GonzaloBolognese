@@ -70,7 +70,7 @@ const proyects = () => {
   return (
     <>
       <Head>
-        <title>Gonzalo Bolognese | Projects Page</title>
+        <title>Gonzalo Bolognese | Proyectos Personales</title>
         <meta name='description' content='any description'/>
       </Head>
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
@@ -82,7 +82,7 @@ const proyects = () => {
               <FeaturedProject 
               type="E-commerce"
               title="Mangiar-e"
-              summary="With 7 colleagues, we developed an application called Mangiar-e that offers an easy recipe search based on the user's ingredients. It includes a landing page, authentication through Auth0, an admin panel, and a regular user panel. It allows ingredient creation and modification from the admin side, as well as recipe creation from the user side. It also provides the option for users to purchase any missing ingredients through the application using a shopping cart linked to Mercado Pago. Implementation of cloudinary and localStorage within the app."
+              summary="Mangiar-e es una app culinaria que te permite descubrir recetas filtrándolas por ingredientes, adaptándose a lo que tienes en casa. Si te falta algo, ¡no te preocupes! Puedes adquirirlo en su tienda integrada y pagar con MercadoPago. Además, puedes socializar y gestionar contenido, revisar recetas, marcar tus favoritas y compartir las tuyas."
               img={MangiareImg}
               github="https://github.com/Matu36/MANGIARE"
               link="https://mangiare.vercel.app/"

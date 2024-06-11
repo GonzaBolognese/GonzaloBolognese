@@ -79,8 +79,8 @@ const NavBar = () => {
      <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
           <Custom href="/" title="Home" className="mr-4" />
-          <Custom href="/about" title="About" className="mx-4" />
-          <Custom href="/projects" title="Projects" className="mx-4" />
+          <Custom href="/about" title="Sobre Mi" className="mx-4" />
+          <Custom href="/projects" title="Proyectos" className="mx-4" />
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">

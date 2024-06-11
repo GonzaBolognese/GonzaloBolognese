@@ -35,8 +35,8 @@ export default function Home() {
           <AnimetedText text="Full Stack Web Developer" className='!text-6xl !text-left 
           xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl'/>
           <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-          My name is Gonzalo Bolognese and I&apos;m a Full Stack Web Developer based in Buenos Aires, Argentina.
-          Explore my latest projects, showcasing my expertise in React.js and web development.
+          Mi nombre es Gonzalo Bolognese y soy un Desarrollador Web Full Stack con sede en Buenos Aires, Argentina. 
+          Te invito a conocer mis últimos proyectos
           </p>
           <div className='flex items-center self-start mt-2 lg:self-center'>
             <Link href="/Gonzalo-Bolognese-CV.pdf" target={"_blank"}
@@ -46,12 +46,12 @@ export default function Home() {
             border-2 border-solid border-transparent hover:border-dark hover:dark:border-light
             md:p-2 md:px-4 md:text-base sm:p-1 sm:px-2'
             download={true}
-            >Resume <LinkArrow className={"w-6 ml-1"}/>
+            >Curriculum <LinkArrow className={"w-6 ml-1"}/>
             </Link>
             <Link href="mailto:gonza.1703@gmail.com" target={"_blank"}
             className='ml-4 text-lg font-medium capitalize text-dark dark:text-light underline
             md:text-base 
-            '>Contact</Link>
+            '>Contacto</Link>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ const About = () => {
   return (
     <>
         <Head> 
-            <title>About Page</title>
+            <title>Sobre Mi</title>
         </Head>
         <Transition />
         <main className='flex w-full flex-col items-center justify-center dark:text-light'>
@@ -26,29 +26,28 @@ const About = () => {
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 '>
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                         <p className='font-medium'>
-                            Hi, My name is Gonzalo Bolognese and I&apos;m a Full Stack Web Developer based in Buenos Aires, Argentina.
+                            Hola, Mi nombre es Gonzalo Bolognese y soy a Full Stack Web Developer que vive en Buenos Aires, Argentina.
                         </p>
                         <p className='my-4 font-medium'>
-                            I&apos;m Graduate as a Full Stack Web Developer from &nbsp; 
+                            Soy graduado como Full Stack Web Developer en &nbsp; 
                             <a href='https://www.soyhenry.com/' target='_blank'>
                                 <Image alt='Henry logo' src={HenryLogo} className="bg-light inline w-20 p-1.5 rounded-xl" />
                             </a>
                         </p>
                         <p className='font-medium'>
-                            and graduate as a Front-End Web Developer from &nbsp; 
+                            y graduado como Front-End Developer en &nbsp; 
                             <a href="https://www.educacionit.com/" target='_blank'>
                                 <Image alt='educacion IT logo' src={EducationITLogo} className='bg-light inline w-28 mb-2 rounded-xl' />
                             </a>
                         </p>
                         <p className='mb-3 font-medium'>
-                            I am passionate about technology and thrive on challenges, finding creative solutions along the way.
+                            Soy Un apasionado de la tecnologia y la programación, independientemente del lenguaje.
                         </p>
                         <p className='mb-3 font-medium'>
-                        With experience working on individual and team projects, I understand the value of effective communication and collaboration. I bring a strong commitment to delivering high-quality results and constantly seek innovative ways to bring ideas to life.
+                        Con experiencia trabajando en proyectos individuales y en equipo, comprendo el valor de la comunicación y la colaboración efectivas. Aporto un fuerte compromiso para entregar resultados de alta calidad y busco constantemente formas innovadoras de dar vida a las ideas.
                         </p>
                         <p className='font-medium'>
-                        I am excited to apply my skills and knowledge in a professional setting, eager to contribute to a company&apos;s success while continuously learning from experienced professionals. Let&apos;s work together to create exceptional digital experiences!
-                        </p>
+                        Estoy emocionado de aplicar mis habilidades y conocimientos en un entorno profesional, ansioso por contribuir al éxito de una empresa mientras continúo aprendiendo de profesionales con experiencia.                        </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 
                     border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light
@@ -65,13 +64,13 @@ const About = () => {
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                 2+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Years of experience</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Años de Experiencia</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                3+
+                                5+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Featured projects</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Proyectos realizados</h2>
                         </div>
                         
                     </div>
