@@ -56,33 +56,32 @@ const Education = () => {
              md:w-[2px] md:left-[30xp] xs:left-[20px]'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details 
-                    type='FULL STACK WEB DEVELOPER'
-                    time='2022 - 2023'
-                    place='Henry'
-                    link='https://www.soyhenry.com/'
-                    info='
-                    Bootcamp en el cual pude adquirir habilidades para desarrollar un sitio web completo desde el diseño, funcionalidad, base de datos relacionales y manipulación de Apis. Valoro mucho el aprendizaje de conceptos en programación y matemáticas como algoritmos, recursión y estructuras de datos.
-                    ' 
+                        type='LICENCIATURA EN CIENCIA DE DATOS'
+                        time='2024 - Actualidad'
+                        place='Universidad Nacional de San Martin (UNSAM)'
+                        link="https://www.unsam.edu.ar/"
+                        info='
+                        Iniciando mi formación en la Licenciatura en Ciencia de Datos en la Universidad Nacional de Buenos Aires, Mi interés se centra en fusionar mi pasión por la programación y la estadística.
+                        '
                     />
                     <Details 
-                    type='FRONT END WEB DEVELOPER'
-                    time='2021 - 2022'
-                    place='Educación IT'
-                    link='https://www.educacionit.com/'
-                    info='
-                    Me forme con un curso acelerado que abarcó módulos desde Diseño UX y UI hasta Introducción al Paradigma de Objetos. Adquirí habilidades en Desarrollo Web utilizando HTML, CSS, Vanilla JavaScript y React. Durante este curso, adquirí habilidades para desarrollar diseños responsivos y para implementar Aplicaciones Web Progresivas (AWP)
-                    '
+                        type='FULL STACK WEB DEVELOPER'
+                        time='2022 - 2023'
+                        place='Henry'
+                        link='https://www.soyhenry.com/'
+                        info='
+                        Bootcamp en el cual pude adquirir habilidades para desarrollar un sitio web completo desde el diseño, funcionalidad, base de datos relacionales y manipulación de Apis. Valoro mucho el aprendizaje de conceptos en programación y matemáticas como algoritmos, recursión y estructuras de datos.
+                        ' 
                     />
                     <Details 
-                    type='LICENCIATURA EN CIENCIA DE DATOS'
-                    time='2024 - 2028'
-                    place='Universidad Nacional de San Martin (UNSAM)'
-                    link="https://www.unsam.edu.ar/"
-                    info='
-                    Iniciando mi formación en la Licenciatura en Ciencia de Datos en la Universidad Nacional de Buenos Aires, Mi interés se centra en fusionar mi pasión por la programación y la estadística.
-                    '
+                        type='FRONT END WEB DEVELOPER'
+                        time='2021 - 2022'
+                        place='Educación IT'
+                        link='https://www.educacionit.com/'
+                        info='
+                        Me forme con un curso acelerado que abarcó módulos desde Diseño UX y UI hasta Introducción al Paradigma de Objetos. Adquirí habilidades en Desarrollo Web utilizando HTML, CSS, Vanilla JavaScript y React. Durante este curso, adquirí habilidades para desarrollar diseños responsivos y para implementar Aplicaciones Web Progresivas (AWP)
+                        '
                     />
-                   
             </ul>
         </div>
     </div>

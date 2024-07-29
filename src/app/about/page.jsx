@@ -10,6 +10,7 @@ import Education from '@/components/Education'
 import Transition from '@/components/Transition'
 import HenryLogo from '../../../public/images/Henry.png'
 import EducationITLogo from '../../../public/images/EducacionIT.png'
+import Experience from '@/components/Experience'
 
 
 const About = () => {
@@ -76,6 +77,7 @@ const About = () => {
                     </div>
                 </div>
                 <Skills className="w-screen" />
+                <Experience />
                 <Education />
             </div>
         </main>

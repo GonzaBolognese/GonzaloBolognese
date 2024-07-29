@@ -7,6 +7,7 @@ import { GithubIcon } from '@/components/Icons'
 import MangiareImg from '../../../public/images/Mangiare.jpg'
 import PaseoPetImg from '../../../public/images/PaseoPet.jpg'
 import HenryGamesImg from '../../../public/images/HenryGames.png'
+import PasosFirmes from '../../../public/images/Pasos-firmes.jpg'
 import Link from 'next/link'
 import Image from 'next/image'
 import Transition from '@/components/Transition'
@@ -31,7 +32,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
         <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
         <div className='mt-2 flex items-center'>
         <Link href={github} target="_blank" className='w-10'><GithubIcon /></Link>
-        <Link href={github} target="_blank" className='ml-4 rounded-lg bg-dark text-light p-2 
+        <Link href={link} target="_blank" className='ml-4 rounded-lg bg-dark text-light p-2 
         px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base'>
           Visit Project
         </Link>
@@ -58,7 +59,7 @@ const Project = ({title, type, img, link, github}) => {
           <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl sm:text-lg'>{title}</h2>
         </Link>
         <div className='w-full mt-2 flex items-center justify-between'>
-        <Link href={github} target="_blank" className='text-lg font-semibold underline md:text-base'>Visit</Link>
+        <Link href={link} target="_blank" className='text-lg font-semibold underline md:text-base'>Visit</Link>
         <Link href={github} target="_blank" className='w-8 md:w-6'><GithubIcon /></Link>
         </div>
       </div>
@@ -80,12 +81,12 @@ const proyects = () => {
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
             <div className='col-span-12'>
               <FeaturedProject 
-              type="E-commerce"
-              title="Mangiar-e"
-              summary="Mangiar-e es una app culinaria que te permite descubrir recetas filtrándolas por ingredientes, adaptándose a lo que tienes en casa. Si te falta algo, ¡no te preocupes! Puedes adquirirlo en su tienda integrada y pagar con MercadoPago. Además, puedes socializar y gestionar contenido, revisar recetas, marcar tus favoritas y compartir las tuyas."
-              img={MangiareImg}
-              github="https://github.com/Matu36/MANGIARE"
-              link="https://mangiare.vercel.app/"
+              type="Web colaborativa"
+              title="Pasos Firmes"
+              summary="Pasos Firmes es una plataforma web que facilita el intercambio y reutilización de dispositivos ortopédicos. Permite a los usuarios registrar y publicar artículos ortopédicos en desuso, buscar equipos específicos y contactar a otros usuarios para coordinar el préstamo o donación de estos dispositivos. La plataforma promueve la colaboración comunitaria y mejora el acceso a equipamiento esencial para personas con discapacidad."
+              img={PasosFirmes}
+              github="https://github.com/No-Country/s16-06-m-java-react"
+              link="https://github.com/No-Country/s16-06-m-java-react"
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
@@ -96,6 +97,16 @@ const proyects = () => {
                 img={PaseoPetImg}
                 github="https://github.com/GonzaBolognese/Paseopet"
                 link="https://paseopet.000webhostapp.com/"
+                />
+            </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project 
+                type="App"
+                title="Mangiar-e"
+                summary="Mangiar-e es una app culinaria que te permite descubrir recetas filtrándolas por ingredientes, adaptándose a lo que tienes en casa. Si te falta algo, ¡no te preocupes! Puedes adquirirlo en su tienda integrada y pagar con MercadoPago. Además, puedes socializar y gestionar contenido, revisar recetas, marcar tus favoritas y compartir las tuyas."
+                img={MangiareImg}
+                github="https://github.com/Matu36/MANGIARE"
+                link="https://mangiare.vercel.app/"
                 />
             </div>
             <div className='col-span-6 sm:col-span-12'>
