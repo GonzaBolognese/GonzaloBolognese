@@ -8,6 +8,7 @@ import MangiareImg from '../../../public/images/Mangiare.jpg'
 import PaseoPetImg from '../../../public/images/PaseoPet.jpg'
 import HenryGamesImg from '../../../public/images/HenryGames.png'
 import PasosFirmes from '../../../public/images/Pasos-firmes.jpg'
+import TaTeTi from '../../../public/images/ta-te-ti.png'
 import Link from 'next/link'
 import Image from 'next/image'
 import Transition from '@/components/Transition'
@@ -93,7 +94,7 @@ const proyects = () => {
               <Project 
                 type="App"
                 title="Paseo Pet"
-                summary="Paseo Pet is a dog-walking app developed as part of a university project for educational purposes. The main idea of the app is to connect dog walkers from a specific area with dogs in need of a walk. The application is developed in PHP and uses PHPMyAdmin as the database."
+                summary="Paseo Pet es una aplicación para pasear perros desarrollada como parte de un proyecto universitario con fines educativos. La idea principal de la aplicación es conectar a paseadores de perros de una área específica con perros que necesitan un paseo. La aplicación está desarrollada en PHP y utiliza PHPMyAdmin como base de datos."
                 img={PaseoPetImg}
                 github="https://github.com/GonzaBolognese/Paseopet"
                 link="https://paseopet.000webhostapp.com/"
@@ -107,6 +108,16 @@ const proyects = () => {
                 img={MangiareImg}
                 github="https://github.com/Matu36/MANGIARE"
                 link="https://mangiare.vercel.app/"
+                />
+            </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project 
+                type="Game"
+                title="Ta-Te-Ti"
+                summary="Este es un proyecto de Ta-Te-Ti desarrollado con React y Vue.js. El juego permite a dos jugadores turnarse para marcar X o O en una cuadrícula de 3x3 y determinar el ganador. También guarda el estado del juego y el historial de victorias en el almacenamiento local del navegador."
+                img={TaTeTi}
+                github="https://github.com/GonzaBolognese/tateti"
+                link="https://tateti-omega.vercel.app/"
                 />
             </div>
             <div className='col-span-6 sm:col-span-12'>
