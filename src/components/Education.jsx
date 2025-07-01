@@ -56,32 +56,24 @@ const Education = () => {
              md:w-[2px] md:left-[30xp] xs:left-[20px]'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details 
-                        type='LICENCIATURA EN CIENCIA DE DATOS'
+                        type='Lic. en Ciencia de Datos'
                         time='2024 - Actualidad'
                         place='Universidad Nacional de San Martin (UNSAM)'
-                        link="https://www.unsam.edu.ar/"
+                        link="https://unsam.edu.ar/escuelas/ecyt/661/ciencia/ciencia-de-datos"
                         info='
                         Iniciando mi formación en la Licenciatura en Ciencia de Datos en la Universidad Nacional de Buenos Aires, Mi interés se centra en fusionar mi pasión por la programación y la estadística.
                         '
                     />
                     <Details 
-                        type='FULL STACK WEB DEVELOPER'
-                        time='2022 - 2023'
-                        place='Henry'
-                        link='https://www.soyhenry.com/'
+                        type='Google Data Analytics Professional Certificate'
+                        time='2025 - 2025'
+                        place='Coursera'
+                        link='https://www.coursera.org/google-certificates/data-analytics-certificate?gwg_campaign_id=null&gwg_exp=null'
                         info='
-                        Bootcamp en el cual pude adquirir habilidades para desarrollar un sitio web completo desde el diseño, funcionalidad, base de datos relacionales y manipulación de Apis. Valoro mucho el aprendizaje de conceptos en programación y matemáticas como algoritmos, recursión y estructuras de datos.
+                        Durante mi formación con el Certificado de Google Data Analytics, desarrollé competencias prácticas para resolver problemas de negocio utilizando datos. Puse en práctica mis habilidades en proyectos que abarcaron desde la limpieza de datos y el análisis con SQL y R, hasta la creación de narrativas visuales impactantes con Tableau.
                         ' 
                     />
-                    <Details 
-                        type='FRONT END WEB DEVELOPER'
-                        time='2021 - 2022'
-                        place='Educación IT'
-                        link='https://www.educacionit.com/'
-                        info='
-                        Me forme con un curso acelerado que abarcó módulos desde Diseño UX y UI hasta Introducción al Paradigma de Objetos. Adquirí habilidades en Desarrollo Web utilizando HTML, CSS, Vanilla JavaScript y React. Durante este curso, adquirí habilidades para desarrollar diseños responsivos y para implementar Aplicaciones Web Progresivas (AWP)
-                        '
-                    />
+
             </ul>
         </div>
     </div>

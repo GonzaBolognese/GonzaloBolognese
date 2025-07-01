@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import {motion} from 'framer-motion';
 import Image from 'next/image';
 
-const SkillItem = ({ name, x, y, icon, experience }) => {
+const SkillItem = ({ name, x, y, icon}) => {
   const [isActive, setIsActive] = useState(false);
 
   const toggleDetails = () => {
@@ -30,7 +30,6 @@ const SkillItem = ({ name, x, y, icon, experience }) => {
       {isActive && (
         <div className="top-full left-0 mt-2 lg:mt-1 w-48 p-4 lg:p-2 bg-white shadow-md rounded-lg xl:w-40 lg:w-32 md:w-24 sm:w-16">
           <h4 className="text-xl font-bold mb-2 lg:mb-1  text-center xl:text-lg lg:text-md md:text-sm sm:text-xs">{name}</h4>
-          <p className="mb-2 text-center xl:text-lg lg:text-md md:text-sm sm:text-xs">Nivel de experiencia: {experience}</p>
         </div>
       )}
     </motion.div>

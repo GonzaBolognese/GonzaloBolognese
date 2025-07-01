@@ -31,12 +31,11 @@ export default function Home() {
           50vw '
           />
         </div>
-        <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center md:w-full md:text-center ml-8'>
-          <AnimetedText text="Full Stack Web Developer" className='!text-6xl !text-left 
+        <div className='w-1/2 flex flex-col items-left self-center lg:w-full lg:text-center md:w-full md:text-center ml-8'>
+          <AnimetedText text="Data Analytics & Science" className='!text-6xl !text-left 
           xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl'/>
           <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-          Mi nombre es Gonzalo Bolognese y soy un Desarrollador Web Full Stack con sede en Buenos Aires, Argentina. 
-          Te invito a conocer mis últimos proyectos
+          Mi nombre es Gonzalo Bolognesem, soy Data Analytics y estudiante de Data Science. 
           </p>
           <div className='flex items-center self-start mt-2 lg:self-center'>
             <Link href="/Gonzalo-Bolognese-CV.pdf" target={"_blank"}
@@ -56,7 +55,6 @@ export default function Home() {
         </div>
       </div>
       </div>
-      <HireMe mode={mode} className='md:z-1000'/>
     </main>
       <Footer/>
     </>

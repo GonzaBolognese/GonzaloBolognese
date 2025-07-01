@@ -36,7 +36,7 @@ const Experience = () => {
                         position="Back End Developer"
                         company="No Country"
                         companyLink="https://www.nocountry.tech/"
-                        time="2024 - Actualidad"
+                        time="2024 - 2024"
                         señority="Contrato de prácticas"
                         work="Durante mi práctica profesional en No Country, estoy ganando experiencia trabajando en equipos multidisciplinarios en Simulaciones Remotas de Desarrollo Web enfocada en el desarrollo Backend para perfeccionar mis habilidades en Java.
 En el rol de Backend Developer, mis responsabilidades incluyeron el diseño, implementación y mantenimiento de la lógica del servidor y la arquitectura de bases de datos. Utilizando tecnologías Java como Spring Boot, Spring Security, Hibernate, MySQL Y MVC. "

@@ -8,8 +8,8 @@ import Imgcom from '../../../public/images/Img.jpg'
 import Skills from '@/components/Skills'
 import Education from '@/components/Education'
 import Transition from '@/components/Transition'
-import HenryLogo from '../../../public/images/Henry.png'
-import EducationITLogo from '../../../public/images/EducacionIT.png'
+import UnsamLogo from '../../../public/images/Unsam.png'
+import GoogleLogo from '../../../public/images/Google.png'
 import Experience from '@/components/Experience'
 
 
@@ -27,28 +27,29 @@ const About = () => {
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 '>
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                         <p className='font-medium'>
-                            Hola, Mi nombre es Gonzalo Bolognese y soy a Full Stack Web Developer que vive en Buenos Aires, Argentina.
+                            Mi nombre es Gonzalo Bolognese, soy Analista de Datos con formación y enfoque en Data Science.
                         </p>
                         <p className='my-4 font-medium'>
-                            Soy graduado como Full Stack Web Developer en &nbsp; 
-                            <a href='https://www.soyhenry.com/' target='_blank'>
-                                <Image alt='Henry logo' src={HenryLogo} className="bg-light inline w-20 p-1.5 rounded-xl" />
+                            Estudiante de Lic. en Ciencia de Datos en &nbsp; 
+                            <a href='https://www.unsam.edu.ar/img/logo_ecyt.png' target='_blank'>
+                                <Image alt='Unsam logo' src={UnsamLogo} className="bg-light inline w-24 p-1.5 rounded-xl" />
                             </a>
                         </p>
                         <p className='font-medium'>
-                            y graduado como Front-End Developer en &nbsp; 
-                            <a href="https://www.educacionit.com/" target='_blank'>
-                                <Image alt='educacion IT logo' src={EducationITLogo} className='bg-light inline w-28 mb-2 rounded-xl' />
+                            Certificado por Google en Data Analytics &nbsp; 
+                            <a href="https://grow.google/certificates/data-analytics/" target='_blank'>
+                                <Image alt='Google logo' src={GoogleLogo} className='bg-light inline w-20 rounded-xl' />
                             </a>
                         </p>
-                        <p className='mb-3 font-medium'>
-                            Soy Un apasionado de la tecnologia y la programación, independientemente del lenguaje.
+                        <p className='mb-3 font-medium mt-4'>
+                            Me apasiona aplicar la estadística y la programación para resolver problemas complejos y extraer insights de valor a partir de los datos.
                         </p>
                         <p className='mb-3 font-medium'>
-                        Con experiencia trabajando en proyectos individuales y en equipo, comprendo el valor de la comunicación y la colaboración efectivas. Aporto un fuerte compromiso para entregar resultados de alta calidad y busco constantemente formas innovadoras de dar vida a las ideas.
+                            Disfruto del trabajo en equipo para transformar ideas en soluciones de datos funcionales. Mi experiencia en análisis con Pandas y experiencia en desarrollo backend con Spring Boot me permite abordar los problemas desde una perspectiva integral.
                         </p>
                         <p className='font-medium'>
-                        Estoy emocionado de aplicar mis habilidades y conocimientos en un entorno profesional, ansioso por contribuir al éxito de una empresa mientras continúo aprendiendo de profesionales con experiencia.                        </p>
+                        Estoy emocionado de aplicar mis habilidades y conocimientos en un entorno profesional, ansioso por contribuir al éxito de una empresa mientras continúo aprendiendo de profesionales con experiencia.
+                        </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 
                     border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light
