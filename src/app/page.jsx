@@ -32,10 +32,10 @@ export default function Home() {
           />
         </div>
         <div className='w-1/2 flex flex-col items-left self-center lg:w-full lg:text-center md:w-full md:text-center ml-8'>
-          <AnimetedText text="Data Analytics & Science" className='!text-6xl !text-left 
-          xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl'/>
+          <AnimetedText text="Data Analytics & Data Science" className='!text-5xl !text-left 
+          xl:!text-4xl lg:!text-center lg:!text=5xl md:!text-4xl sm:!text-3xl'/>
           <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-          Mi nombre es Gonzalo Bolognesem, soy Data Analytics y estudiante de Data Science. 
+          Mi nombre es Gonzalo Bolognese, soy Analista de datos y estudiante de Ciencia de datos. 
           </p>
           <div className='flex items-center self-start mt-2 lg:self-center'>
             <Link href="/Gonzalo-Bolognese-CV.pdf" target={"_blank"}

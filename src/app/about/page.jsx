@@ -45,10 +45,10 @@ const About = () => {
                             Me apasiona aplicar la estadística y la programación para resolver problemas complejos y extraer insights de valor a partir de los datos.
                         </p>
                         <p className='mb-3 font-medium'>
-                            Disfruto del trabajo en equipo para transformar ideas en soluciones de datos funcionales. Mi experiencia en análisis con Pandas y experiencia en desarrollo backend con Spring Boot me permite abordar los problemas desde una perspectiva integral.
+                            Disfruto del trabajo en equipo para transformar ideas en soluciones de datos funcionales. Mi experiencia en análisis con Pandas y experiencia en desarrollo backend con Spring Boot me permite abordar los problemas desde una vision integral.
                         </p>
                         <p className='font-medium'>
-                        Estoy emocionado de aplicar mis habilidades y conocimientos en un entorno profesional, ansioso por contribuir al éxito de una empresa mientras continúo aprendiendo de profesionales con experiencia.
+                            Una de las cosas que más valoro de mi trabajo es estar en un entorno que me permite aportar mis ideas, ver el impacto que generan y crecer junto a profesionales
                         </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 
