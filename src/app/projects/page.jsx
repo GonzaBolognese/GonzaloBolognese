@@ -13,6 +13,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Transition from '@/components/Transition'
 import GasNatural from '../../../public/images/gasNatural.png'
+import AnalisisILooker from '../../../public/images/AnalisisLooker.png'
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
   return(
@@ -62,7 +63,11 @@ const Project = ({title, type, img, link, github}) => {
         </Link>
         <div className='w-full mt-2 flex items-center justify-between'>
         <Link href={link} target="_blank" className='text-lg font-semibold underline md:text-base'>Visit</Link>
-        <Link href={github} target="_blank" className='w-8 md:w-6'><GithubIcon /></Link>
+        {github!=""&&(
+          <Link href={github} target="_blank" className='w-8 md:w-6'><GithubIcon /></Link>
+        )
+        }
+        
         </div>
       </div>
     </article>
@@ -93,12 +98,12 @@ const proyects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project 
-                type="App"
-                title="Paseo Pet"
-                summary="Paseo Pet es una aplicación para pasear perros desarrollada como parte de un proyecto universitario con fines educativos. La idea principal de la aplicación es conectar a paseadores de perros de una área específica con perros que necesitan un paseo. La aplicación está desarrollada en PHP y utiliza PHPMyAdmin como base de datos."
-                img={PaseoPetImg}
-                github="https://github.com/GonzaBolognese/Paseopet"
-                link="https://paseopet.000webhostapp.com/"
+                type="Dashboard"
+                title="Análisis I - Primer Cuatrimestre"
+                summary="Dashboard generados con el fin de conocer los resultados de los examenes de la materia Análisis I en el 1er cuatrimestre del 2025 en la Universidad de San Martin"
+                img={AnalisisILooker}
+                github=""
+                link="https://lookerstudio.google.com/reporting/7a8cf60c-d1e5-49c3-a2dd-6382b9ed226e"
                 />
             </div>
             <div className='col-span-6 sm:col-span-12'>
@@ -109,6 +114,16 @@ const proyects = () => {
                 img={GasNatural}
                 github="https://github.com/GonzaBolognese/programacion-final-2025"
                 link="https://github.com/GonzaBolognese/programacion-final-2025"
+                />
+            </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project 
+                type="App"
+                title="Paseo Pet"
+                summary="Paseo Pet es una aplicación para pasear perros desarrollada como parte de un proyecto universitario con fines educativos. La idea principal de la aplicación es conectar a paseadores de perros de una área específica con perros que necesitan un paseo. La aplicación está desarrollada en PHP y utiliza PHPMyAdmin como base de datos."
+                img={PaseoPetImg}
+                github="https://github.com/GonzaBolognese/Paseopet"
+                link="https://paseopet.000webhostapp.com/"
                 />
             </div>
             

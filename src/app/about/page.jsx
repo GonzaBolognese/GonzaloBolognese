@@ -48,7 +48,7 @@ const About = () => {
                             Disfruto del trabajo en equipo para transformar ideas en soluciones de datos funcionales. Mi experiencia en análisis con Pandas y experiencia en desarrollo backend con Spring Boot me permite abordar los problemas desde una vision integral.
                         </p>
                         <p className='font-medium'>
-                            Una de las cosas que más valoro de mi trabajo es estar en un entorno que me permite aportar mis ideas, ver el impacto que generan y crecer junto a profesionales
+                            Una de las cosas que más valoro es estar en un entorno que me permite aportar mis ideas, ver el impacto que generan y crecer junto a profesionales con más experiencia.
                         </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 
