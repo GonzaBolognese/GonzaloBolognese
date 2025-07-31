@@ -14,6 +14,7 @@ import Image from 'next/image'
 import Transition from '@/components/Transition'
 import GasNatural from '../../../public/images/gasNatural.png'
 import AnalisisILooker from '../../../public/images/AnalisisLooker.png'
+import CiclisticBikeShare from '../../../public/images/CiclisticBikeShare.png'
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
   return(
@@ -87,13 +88,21 @@ const proyects = () => {
           <AnimetedText text="Proyectos Personales" className="mb-16 lg:text-7xl sm:mb-8 sm:!text-6xl xs :!text-4xl" />
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
             <div className='col-span-12'>
-              <FeaturedProject 
+              <FeaturedProject
+              type="Caso de Analisis"
+              title="Análisis de Caso: Cyclistic Bike-Share"
+              summary="Este repositorio contiene el análisis de datos para el caso de estudio de Cyclistic, parte del Certificado Profesional de Análisis de Datos de Google. El objetivo es analizar los datos históricos de viajes de Cyclistic para entender las diferencias clave entre los ciclistas ocasionales (casual) y los miembros anuales (member), con el fin de diseñar una estrategia de marketing para convertir a los usuarios ocasionales en miembros."
+              img={CiclisticBikeShare}
+              github="https://github.com/GonzaBolognese/Cyclistic-Bike-Share-Analysis"
+              link="https://github.com/GonzaBolognese/Cyclistic-Bike-Share-Analysis"
+              />
+              <Project 
               type="Web colaborativa"
               title="Pasos Firmes"
               summary="Pasos Firmes es una plataforma web que facilita el intercambio y reutilización de dispositivos ortopédicos. Permite a los usuarios registrar y publicar artículos ortopédicos en desuso, buscar equipos específicos y contactar a otros usuarios para coordinar el préstamo o donación de estos dispositivos. La plataforma promueve la colaboración comunitaria y mejora el acceso a equipamiento esencial para personas con discapacidad."
               img={PasosFirmes}
               github="https://github.com/No-Country/s16-06-m-java-react"
-              link="https://pasos-deploy-front.vercel.app/home"
+              link="https://www.linkedin.com/posts/pablo-r-velasco_hola-red-quiero-compartir-con-ustedes-ugcPost-7225152284760948736-iut6?utm_source=share&utm_medium=member_desktop&rcm=ACoAACJNioMBJ7iPcV-iJ4eIPWtd9KxMOfM3cMI"
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
