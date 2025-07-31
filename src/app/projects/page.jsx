@@ -96,14 +96,6 @@ const proyects = () => {
               github="https://github.com/GonzaBolognese/Cyclistic-Bike-Share-Analysis"
               link="https://github.com/GonzaBolognese/Cyclistic-Bike-Share-Analysis"
               />
-              <Project 
-              type="Web colaborativa"
-              title="Pasos Firmes"
-              summary="Pasos Firmes es una plataforma web que facilita el intercambio y reutilización de dispositivos ortopédicos. Permite a los usuarios registrar y publicar artículos ortopédicos en desuso, buscar equipos específicos y contactar a otros usuarios para coordinar el préstamo o donación de estos dispositivos. La plataforma promueve la colaboración comunitaria y mejora el acceso a equipamiento esencial para personas con discapacidad."
-              img={PasosFirmes}
-              github="https://github.com/No-Country/s16-06-m-java-react"
-              link="https://www.linkedin.com/posts/pablo-r-velasco_hola-red-quiero-compartir-con-ustedes-ugcPost-7225152284760948736-iut6?utm_source=share&utm_medium=member_desktop&rcm=ACoAACJNioMBJ7iPcV-iJ4eIPWtd9KxMOfM3cMI"
-              />
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project 
@@ -117,12 +109,32 @@ const proyects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project 
+                type="Web colaborativa"
+                title="Pasos Firmes"
+                summary="Pasos Firmes es una plataforma web que facilita el intercambio y reutilización de dispositivos ortopédicos. Permite a los usuarios registrar y publicar artículos ortopédicos en desuso, buscar equipos específicos y contactar a otros usuarios para coordinar el préstamo o donación de estos dispositivos. La plataforma promueve la colaboración comunitaria y mejora el acceso a equipamiento esencial para personas con discapacidad."
+                img={PasosFirmes}
+                github="https://github.com/No-Country/s16-06-m-java-react"
+                link="https://www.linkedin.com/posts/pablo-r-velasco_hola-red-quiero-compartir-con-ustedes-ugcPost-7225152284760948736-iut6?utm_source=share&utm_medium=member_desktop&rcm=ACoAACJNioMBJ7iPcV-iJ4eIPWtd9KxMOfM3cMI"
+                />
+            </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project 
                 type="Análisis exploratorio"
                 title="Precio Gas Natural 2019 - 2025"
                 summary="Análisis exploratorio, Consultas por cuenca y por año, Análisis de precios y Análisis temporal"
                 img={GasNatural}
                 github="https://github.com/GonzaBolognese/programacion-final-2025"
                 link="https://github.com/GonzaBolognese/programacion-final-2025"
+                />
+            </div>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project 
+                type="Game"
+                title="Ta-Te-Ti"
+                summary="Este es un proyecto de Ta-Te-Ti desarrollado con React y Vite.js. El juego permite a dos jugadores turnarse para marcar X o O en una cuadrícula de 3x3 y determinar el ganador. También guarda el estado del juego y el historial de victorias en el almacenamiento local del navegador."
+                img={TaTeTi}
+                github="https://github.com/GonzaBolognese/tateti"
+                link="https://tateti-omega.vercel.app/"
                 />
             </div>
             <div className='col-span-6 sm:col-span-12'>
@@ -144,16 +156,6 @@ const proyects = () => {
                 img={MangiareImg}
                 github="https://github.com/Matu36/MANGIARE"
                 link="https://mangiare.vercel.app/"
-                />
-            </div>
-            <div className='col-span-6 sm:col-span-12'>
-              <Project 
-                type="Game"
-                title="Ta-Te-Ti"
-                summary="Este es un proyecto de Ta-Te-Ti desarrollado con React y Vite.js. El juego permite a dos jugadores turnarse para marcar X o O en una cuadrícula de 3x3 y determinar el ganador. También guarda el estado del juego y el historial de victorias en el almacenamiento local del navegador."
-                img={TaTeTi}
-                github="https://github.com/GonzaBolognese/tateti"
-                link="https://tateti-omega.vercel.app/"
                 />
             </div>
             <div className='col-span-6 sm:col-span-12'>
